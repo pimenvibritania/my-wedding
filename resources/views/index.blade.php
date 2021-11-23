@@ -13,8 +13,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-        <meta property='og:image' content='{{asset('assets/images/background_desktop.jpg')}}'>
-        <meta property='og:title' content='You Are Invited to The Wedding of Yanita &amp; Yuga'>
+        <meta property="og:image" content="https://us.123rf.com/450wm/aldesainid/aldesainid2005/aldesainid200500104/147984544-vector-illustration-of-a-muslim-couples-wedding-invitation-isolated-on-twig-frame-with-a-man-wearing.jpg?ver=6">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="1024">
+        <meta property="og:image:height" content="1024">
+        <meta property='og:title' content='You Are Invited to The Wedding of Yayang &amp; Pimen'>
         <meta property='og:description' content='Kediaman Mempelai Wanita | December 12th, 2020'>
         <meta property='og:type' content='article'>
 
@@ -233,7 +236,7 @@
                                             <div class='gaya' id="hitungmundur4" style='background-color:#DE8081'>0<span>SECOND</span></div>
                                     <div style='clear:both'><br></div>
                                     <p>
-                                        <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=N2tobzVzNTU0ZXA3YTUzdmVmdWJ1ZWZtaTcgcGltZW52aWJyaXRhbmlhQG0&amp;details=Kami akan sangat gembira ketika kita bisa bertemu di acara kami.<br><br>salam hangat<br>Yanita - Yuga&amp;location=Kediaman Mempelai Wanita&amp;pli=1&amp;uid=1521339627addtocalendar&amp;sf=true&amp;output=xml" class='btn btn-default btn-sm' style='color:#DE8081;' target='blank'>Save the date</a>
+                                        <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=N2tobzVzNTU0ZXA3YTUzdmVmdWJ1ZWZtaTcgcGltZW52aWJyaXRhbmlhQG0&amp;details=Kami akan sangat gembira ketika kita bisa bertemu di acara kami.<br><br>salam hangat<br>Yayang - Pimen&amp;location=Kediaman Mempelai Wanita&amp;pli=1&amp;uid=1521339627addtocalendar&amp;sf=true&amp;output=xml" class='btn btn-default btn-sm' style='color:#DE8081;' target='blank'>Save the date</a>
                                     </p>
                                 </div>
                             </div>
