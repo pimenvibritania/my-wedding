@@ -162,7 +162,7 @@
                     <div id='fh5co-header2'>
                         <div id='overlay_popup' style='text-align:center; color:white;padding:10px;'>
 
-                            <div style='color:#DE8081;font-family: Lora, serif;margin-top:30px;'>
+                            <div style='color:#DE8081;font-family: Lora, serif;margin-top:10px;'>
                                 <span style='color:white;font-family: Montserrat, sans-serif;display:block;font-size:14px;margin-bottom:40px;letter-spacing:2px;'>
                                 Official Wedding Website
                                 </span>
