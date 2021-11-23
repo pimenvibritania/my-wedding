@@ -18,7 +18,7 @@
         <meta property="og:image:width" content="1024">
         <meta property="og:image:height" content="1024">
         <meta property='og:title' content='You Are Invited to The Wedding of Yayang &amp; Pimen'>
-        <meta property='og:description' content='Kediaman Mempelai Wanita | December 12th, 2020'>
+        <meta property='og:description' content='Kediaman Mempelai Wanita | December 09th, 2021'>
         <meta property='og:type' content='article'>
 
         <!-- Facebook and Twitter integration -->
