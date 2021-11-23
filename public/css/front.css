@@ -1,0 +1,42 @@
+
+
+img {
+    max-width: 100%;
+  }
+
+  .container-test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* height: 100vh; */
+    background: #F5F5F5;
+  }
+
+  .card-test {
+    position: relative;
+    background: #854D4D;
+    width: 80%;
+    max-height: 100vh;
+    border-radius: 6px;
+    /* padding: 2rem; */
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: white;
+    box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),
+      0 0 1rem rgba(0,0,0,0.2);
+    overflow: hidden;
+  }
+
+    .loc{
+        height: 500px;
+    }
+
+  @media screen and (max-width: 600px) {
+      .loc{
+          height: 400px;
+      }
+  }
