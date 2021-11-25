@@ -260,9 +260,9 @@
                                 <img src="https://cdn.jsdelivr.net/gh/pimenvibritania/cdn@master/images/CPW.jpg" alt="groom" class="img-responsive">
                             </div>
                             <div class="desc-groom">
-                                <h3 style='color:#DE8081;'>Siti Khodijah</h3>
+                                <h3 style='color:#DE8081;'>Siti Khodijah al-Ayyubi</h3>
                                 <!-- untuk deskripsi mempelai -->
-                                <p><i style='font-size:12px;'>The Daughter Of</i><br>K.M. Daud al-Ayyubi<br>Bunda Evi Mahdalena</p>
+                                <p><i style='font-size:12px;'>The Daughter Of</i><br> Mr. K.M. Daud al-Ayyubi<br>Mrs. Evi Mahdalena</p>
                             </div>
                         </div>
                         <p class="heart text-center"><i class="icon-heart2" style='color:#DE8081;'></i></p>
@@ -273,7 +273,7 @@
                             <div class="desc-bride">
                                 <h3 style='color:#DE8081;'>Pirman Abdurohman</h3>
                                 <!-- untuk deskripsi mempelai -->
-                                <p><i style='font-size:12px;'>The Son Of</i><br>Sahidin<br>Ai Mahbubah</p>
+                                <p><i style='font-size:12px;'>The Son Of</i><br>Mr. Sahidin<br>Mrs. Ai Mahbubah</p>
                             </div>
                         </div>
                     </div>
@@ -334,7 +334,7 @@
                                     <i class='icon-clock'></i>
                                     <span>
                                         12:30
-                                            - 18:00
+                                            - 21:00
                                     </span>
                                 </div>
                                 <div class='event-col'>
@@ -356,7 +356,7 @@
                                     <i class='icon-clock'></i>
                                     <span>
                                                 10:00
-                                                    - 18:00
+                                                    - 21:00
                                             </span>
                                 </div>
                                 <div class='event-col'>
