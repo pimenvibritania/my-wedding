@@ -356,7 +356,7 @@
                                     <i class='icon-clock'></i>
                                     <span>
                                                 10:00
-                                                    - 21:00
+                                                    - 19:00
                                             </span>
                                 </div>
                                 <div class='event-col'>
