@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::resource('/', \App\Http\Controllers\WishController::class);
+Route::resource('/send', \App\Http\Controllers\WhatsappConttroller::class);
