@@ -48,6 +48,8 @@
         <!-- Theme style  -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pimenvibritania/cdn@master/css/styling.css">
 
+        <link rel="stylesheet" href="{{asset('sakura-master/dist/sakura.css')}}" />
+
         <link rel="stylesheet" href="{{asset('css/front.css')}}">
         <!-- Modernizr JS -->
         <script src="https://cdn.jsdelivr.net/gh/pimenvibritania/cdn@master/js/modernizr-2.6.2.min.js"></script>
@@ -152,7 +154,7 @@
     </head>
     <body>
         <audio loop preload='auto'  id="myAudio">
-            <source src="{{asset('angel.mp3')}}">
+            <source src="{{asset('assets/audio/angel.mp3')}}">
         </audio>
 
         <a onclick="playAudio()" type="button" id='un-mute' class='float'><img src='https://cdn.jsdelivr.net/gh/pimenvibritania/cdn@master/images/music-mute.png' width='30px;'></a>
@@ -580,6 +582,9 @@
             <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
         </div>
 
+        <script src="{{asset('sakura-master/dist/sakura.js')}}" text="text/javascript"></script>
+
+
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
         <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
 
@@ -704,6 +709,28 @@
             document.getElementById('mute').style.display = 'none';
             document.getElementById('un-mute').style.display = 'inline-block';
         }
+        </script>
+        <script>
+            var sakura = new Sakura('body', {
+                colors: [
+                    {
+                        gradientColorStart: 'rgba(255, 183, 197, 0.9)',
+                        gradientColorEnd: 'rgba(255, 197, 208, 0.9)',
+                        gradientColorDegree: 120,
+                    },
+                    {
+                        gradientColorStart: 'rgba(255,189,189)',
+                        gradientColorEnd: 'rgba(227,170,181)',
+                        gradientColorDegree: 120,
+                    },
+                    {
+                        gradientColorStart: 'rgba(212,152,163)',
+                        gradientColorEnd: 'rgba(242,185,196)',
+                        gradientColorDegree: 120,
+                    },
+                ],
+                delay: 200,
+            });
         </script>
     </body>
 </html>
