@@ -18,6 +18,13 @@
             <label>Nama</label>
             <input type="text" name="nama"/>
         </div>
+        <div>
+            <label>Untuk</label>
+            <select name="untuk">
+                <option value="kawan">Kawan</option>
+                <option value="tamu">Tamu</option>
+            </select>
+        </div>
         <button type="submit">Send</button>
     </form>
 </body>
