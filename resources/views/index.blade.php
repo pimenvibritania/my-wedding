@@ -13,12 +13,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-        <meta property="og:image" content="https://us.123rf.com/450wm/aldesainid/aldesainid2005/aldesainid200500104/147984544-vector-illustration-of-a-muslim-couples-wedding-invitation-isolated-on-twig-frame-with-a-man-wearing.jpg?ver=6">
-        <meta property="og:image:type" content="image/png">
+        <meta property="og:image" content="{{asset('assets/images/ico.jpg')}}">
+        <meta property="og:image:type" content="image/jpg">
         <meta property="og:image:width" content="1024">
         <meta property="og:image:height" content="1024">
         <meta property='og:title' content='You Are Invited to The Wedding of Yayang &amp; Pimen'>
-        <meta property='og:description' content='Kediaman Mempelai Wanita | December 09th, 2021'>
+        <meta property='og:description' content='Villa Yudhistira | Saturday, February 12th, 2022'>
         <meta property='og:type' content='article'>
 
         <!-- Facebook and Twitter integration -->
@@ -74,14 +74,14 @@
             {
                 #fh5co-header
                 {
-                    /*background-image:url(https://cdn.jsdelivr.net/gh/pimenvibritania/cdn@master/images/background_mobile.jpg);*/
-                    background-image:url({{asset('assets/images/background_mobile.jpg')}});
+
+                    background-image:url({{asset('assets/images/background_mobile_blur.jpg')}});
                 }
 
                 #fh5co-header2
                     {
-                        /*background-image:url(https://cdn.jsdelivr.net/gh/pimenvibritania/cdn@master/images/background_mobile.jpg);*/
-                        background-image:url({{asset('assets/images/background_mobile.jpg')}});
+
+                        background-image:url({{asset('assets/images/background_mobile_blur.jpg')}});
                         background-attachment: scroll;
                         background-repeat: no-repeat;
                         background-size: cover;
@@ -93,15 +93,13 @@
             {
                 #fh5co-header
                 {
-                    /*background-image:url(https://cdn.jsdelivr.net/gh/pimenvibritania/cdn@master/images/background_mobile.jpg);*/
-                    background-image:url({{asset('assets/images/background_mobile.jpg')}});
+                    background-image:url({{asset('assets/images/background_desktop.jpg')}});
 
                 }
 
                 #fh5co-header2
                     {
-                        /*background-image:url(https://cdn.jsdelivr.net/gh/pimenvibritania/cdn@master/images/background_mobile.jpg);*/
-                        background-image:url({{asset('assets/images/background_mobile.jpg')}});
+                        background-image:url({{asset('assets/images/background_desktop.jpg')}});
                         background-attachment: fixed;
                         background-repeat: no-repeat;
                         background-size: cover;
@@ -154,7 +152,7 @@
     </head>
     <body>
         <audio loop preload='auto'  id="myAudio">
-            <source src="{{asset('assets/audio/angel.mp3')}}">
+            <source src="{{asset('assets/audio/lajang.mp3')}}">
         </audio>
 
         <a onclick="playAudio()" type="button" id='un-mute' class='float'><img src='https://cdn.jsdelivr.net/gh/pimenvibritania/cdn@master/images/music-mute.png' width='30px;'></a>
@@ -238,7 +236,7 @@
                                             <div class='gaya' id="hitungmundur4" style='background-color:#DE8081'>0<span>SECOND</span></div>
                                     <div style='clear:both'><br></div>
                                     <p>
-                                        <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=N2tobzVzNTU0ZXA3YTUzdmVmdWJ1ZWZtaTcgcGltZW52aWJyaXRhbmlhQG0&amp;details=Kami akan sangat gembira ketika kita bisa bertemu di acara kami.<br><br>salam hangat<br>Yayang - Pimen&amp;location=Kediaman Mempelai Wanita&amp;pli=1&amp;uid=1521339627addtocalendar&amp;sf=true&amp;output=xml" class='btn btn-default btn-sm' style='color:#DE8081;' target='blank'>Save the date</a>
+                                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Yayang%20Pimen%20Wedding%20Day&dates=20220212T090000/20220212T170000&details=Kami+akan+sangat+gembira+ketika+kita+bisa+bertemu+di+acara+kami.%3Cbr%3E%3Cbr%3Esalam+hangat%3Cbr%3EYayang+-+Pimen&location=Villa+Yudhistira,+Jl.+Raya+Cicatih,+Bangbayang,+Kec.+Cicurug,+Kabupaten+Sukabumi&pli=1&uid=1521339627addtocalendar&sf=true&output=xml" class='btn btn-default btn-sm' style='color:#DE8081;' target='blank'>Save the date</a>
                                     </p>
                                 </div>
                             </div>
@@ -259,7 +257,7 @@
                     <div class="couple-wrap animate-box">
                         <div class="couple-half">
                             <div class="groom">
-                                <img src="https://cdn.jsdelivr.net/gh/pimenvibritania/cdn@master/images/CPW.jpg" alt="groom" class="img-responsive">
+                                <img src="{{asset('assets/images/CPW.png')}}" alt="groom" class="img-responsive">
                             </div>
                             <div class="desc-groom">
                                 <h3 style='color:#DE8081;'>Siti Khodijah al-Ayyubi</h3>
@@ -270,7 +268,7 @@
                         <p class="heart text-center"><i class="icon-heart2" style='color:#DE8081;'></i></p>
                         <div class="couple-half">
                             <div class="bride">
-                                <img src="https://cdn.jsdelivr.net/gh/pimenvibritania/cdn@master/images/CP.jpg" alt="groom" class="img-responsive">
+                            <img src="{{asset('assets/images/CP.png')}}" alt="groom" class="img-responsive">
                             </div>
                             <div class="desc-bride">
                                 <h3 style='color:#DE8081;'>Pirman Abdurohman</h3>
@@ -296,70 +294,24 @@
             <div id="fh5co-event" class="fh5co-bg" style="background-color:#DE8081; min-height:1050px;">
                 <div class="overlay"></div>
                 <div class="container" >
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-                        <span>Our Special Events</span>
-                        <h2>Wedding Events</h2>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+                            <span>Our Special Events</span>
+                            <h2>Wedding Events</h2>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-
-                        <div class='col-md-4 col-sm-6 text-center' style='margin-bottom:10px;'>
+                    <div class="row justify-content-md-center">
+                        <div class='col-md-auto col-md-offset-3 col-sm-6 text-center' style='margin-bottom:10px;'>
                             <div class='event-wrap animate-box loc'>
                                 <h3>
-                                AKAD
+                                    RECEPTION
                                 </h3>
                                 <div class='event-col'>
                                     <i class='icon-clock'></i>
                                     <span>
-                                        10:00
-                                            - 11:30
+                                        09:00
+                                            - 17:00
                                     </span>
-                                </div>
-                                <div class='event-col'>
-                                    <i class='icon-calendar'></i>
-                                    <span>December 09th, 2021</span>
-                                </div>
-                                <p><label style='font-weight:normal; font-size:22px;'>Kediaman Mempelai Wanita</label><br>Jl. Cikotok - Pasirkuray <br> Kp. Warungbanten, Desa Warungbanten RT.001/RW.001, Kec. Cibeber, Kab. Lebak, Banten. </p>
-
-
-                            </div>
-                        </div>
-
-                        <div class='col-md-4 col-sm-6 text-center' style='margin-bottom:10px;'>
-                            <div class='event-wrap animate-box loc'>
-                                <h3>
-                                WEDDING RECEPTION
-                                </h3>
-                                <div class='event-col'>
-                                    <i class='icon-clock'></i>
-                                    <span>
-                                        12:30
-                                            - 21:00
-                                    </span>
-                                </div>
-                                <div class='event-col'>
-                                    <i class='icon-calendar'></i>
-                                    <span>December 09th, 2021</span>
-                                </div>
-                                <p><label style='font-weight:normal; font-size:22px;'>Kediaman Mempelai Wanita</label><br>Jl. Cikotok - Pasirkuray. <br> Kp. Warungbanten, Desa Warungbanten RT.001/RW.001, Kec. Cibeber, Kab. Lebak, Banten. </p>
-
-
-                            </div>
-                        </div>
-
-                        <div class='col-md-4 col-sm-6 text-center' style='margin-bottom:10px;'>
-                            <div class='event-wrap animate-box loc'>
-                                <h3>
-                                    NGUNDUH MANTU
-                                </h3>
-                                <div class='event-col'>
-                                    <i class='icon-clock'></i>
-                                    <span>
-                                                10:00
-                                                    - 19:00
-                                            </span>
                                 </div>
                                 <div class='event-col'>
                                     <i class='icon-calendar'></i>
@@ -370,13 +322,13 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-                    <p style='color:white;'><br><br>Please join us for a day of love and laughter and celebrate the union of two hearts when they give each other a promise of sharing lifetime</p>
-                </div>
+                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+                        <p style='color:white;'><br><br>Please join us for a day of love and laughter and celebrate the union of two hearts when they give each other a promise of sharing lifetime</p>
+                    </div>
                 </div>
             </div>
-             <div id="fh5co-gallery" class="fh5co-section-gray">
+
+            <div id="fh5co-gallery" class="fh5co-section-gray">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center animate-box">
                         <span style="
@@ -440,7 +392,7 @@
                         </div>
                     </div>
                 </div>
-             </div>
+            </div>
 
             <div id="fh5co-event" class="fh5co-bg" style="background-color:#DE8081;">
                 <div class="overlay"></div>
@@ -456,7 +408,7 @@
                             <div class="display-tc">
                                 <div class="col-md-10 col-md-offset-1">
                                     <div style='width:100%'>
-                                        <a href='https://www.google.com/maps/dir//-6.829858,106.325240/@-6.829858 106.325240,15.04z?hl=id-ID' style='color:white' target='blank'>
+                                        <a href='https://www.google.com/maps/dir//Villa+Yudhistira,+Jalan+Raya+Cicatih,+Bangbayang,+Sukabumi+Regency,+West+Java/@-6.784054,106.7440671,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2e69cdc8aa945073:0x9a7a07df8dee5c5d!2m2!1d106.7790866!2d-6.7840552' style='color:white' target='blank'>
                                             <button class='button_map' style='background-color:#DE8081; width:100%; float:left; color:#ffffff'><span style='display:block; margin-bottom:-10px; font-size:12px;'>Open In</span>Google Maps</button>
                                         </a>
                                     </div>
@@ -467,8 +419,7 @@
                                             width='100%'
                                             height='100%'
                                             frameborder='0' style='border:0'
-                                            src='https://www.google.com/maps/embed/v1/place?key=AIzaSyDrjr1yktnXr5zrXT0gMWkPGDfr7_gPOQ0
-                                                &q=-6.829858, 106.325240' allowfullscreen>
+                                            src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63390.132782258035!2d106.7440671!3d-6.784054!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69cdc8aa945073%3A0x9a7a07df8dee5c5d!2sVilla%20Yudhistira!5e0!3m2!1sen!2sid!4v1644157795081!5m2!1sen!2sid' allowfullscreen>
                                             </iframe>
                                         </div>
                                     </div>
@@ -479,77 +430,51 @@
                 </div>
             </div>
 
-            <div id="fh5co-testimonial">
+            <div id="fh5co-gallery" class="fh5co-section-gray">
                 <div class="container">
                     <div class="row">
-                        <div class="row animate-box">
-                            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                                <span>Best Wishes</span>
-                                <h2 style='color:#DE8081;'>Friends Wishes</h2>
+                        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+                            <div class="col-md-8 col-md-offset-2 text-center animate-box">
+                                <span style="
+                                    font-family: Work Sans, Arial, sans-serif;
+                                    font-size: 13px;
+                                    font-weight:600;
+                                    letter-spacing: 2px;
+                                    ">OUR MEMORIES</span>
+                                <h2 style="
+                                    font-family: Sacramento, Arial, serif;
+                                    font-size: 40px;
+                                    line-height:1.5;
+                                    font-weight:bold;
+                                    color: #DE8081;
+                                    ">Gallery</h2>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12 animate-box">
-                                <div class='swiper-container'>
-                                        <div class='swiper-wrapper'>
-                                            @foreach($wishes as $wish)
-                                                <div class='swiper-slide'>
-                                                    <div style='width:80%; font-size:14px; text-align:center; margin-left:10%;margin-right:10%'>
-                                                        <h3 style='text-transform:capitalize;'>
-                                                            {{$wish->name}}
-                                                            <span style='display:block; font-family: Open Sans, Arial, sans-serif; font-size:12px; margin-top:5px; text-transform:lowercase;'>
-                                                        </span>
-                                                        </h3>
-                                                        <p style='font-size:14px; margin-top:15px;'>
-                                                            {{$wish->description}}
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            @endforeach
-                                        </div>
-                                    <!-- Add Arrows -->
-                                    <div class='swiper-button-next'></div>
-                                    <div class='swiper-button-prev'></div>
-                                </div>
-                                <div style='clear:both;'><br><br></div>
-                                <hr>
-                                <div style='width:90%; margin-left:5%; margin-right:5%;'>
-                                    <form class='form-inline' method='POST' action='{{route('store')}}'>
-                                        @csrf
-                                        <input type='hidden' name='id_event' value='1421'>
-                                            <div class='form-group' style='display:block; width:100%;'>
-                                                <input type='name' class='form-control' id='name' placeholder='Name' name='name' required style='width:100%;'>
-                                            </div>
-
-                                            <div style='clear:both;margin-bottom:5px;'></div>
-                                            <div class='form-group' style='display:block; width:100%;'>
-                                                <select name='attend' class='form-control' id='attend' required style='width:100%;'>
-                                                    <option value="" disabled selected>Are You Attending ?</option>
-                                                    <option value='Attending'>Attending</option>
-                                                    <option value='Tentative'>Tentative</option>
-                                                    <option value='Not Attending'>Not Attending</option>
-                                                </select>
-                                            </div>
-                                            <div style='clear:both;margin-bottom:5px;'></div>
-                                            <div class='form-group' style='display:block; width:100%;'>
-                                                <select name='guest' class='form-control' id='guest' required style='width:100%;'>
-                                                    <option value='1'>1 Person</option>
-                                                    <option value='2'>2 Persons</option>
-                                                </select>
-                                            </div>
-                                            <div style='clear:both;margin-bottom:5px;'></div>
-                                            <div class='form-group'style='display:block; width:100%;'>
-                                                <textarea class='form-control' id='wishes' placeholder='Wishes' rows='10' name='description' required style='width:100%;'></textarea>
-                                            </div>
-
-                                            <div style='clear:both;margin-bottom:5px;'></div>
-                                            <div style='width:100%;'>
-                                                <button type='submit' class='btn btn-block' style='color:white; background-color:#DE8081;'>CONFIRM</button>
-                                            </div>
-                                    </form>
-                                </div>
-                            </div>
+                    </div>
+                    <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="{{asset('assets/images/1.jpg')}}"/>
                         </div>
+                        <div class="swiper-slide">
+                            <img src="{{asset('assets/images/2.jpg')}}"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="{{asset('assets/images/3.jpg')}}"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="{{asset('assets/images/4.jpg')}}"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="{{asset('assets/images/5.jpg')}}"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="{{asset('assets/images/6.jpg')}}"/>
+                        </div>
+
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
                     </div>
                 </div>
             </div>
@@ -644,10 +569,10 @@
         function Hitung()
         {
 
-            tahun = 2021;
-            bulan = 12;
-            hari = 09;
-            jam = 11;
+            tahun = 2022;
+            bulan = 02;
+            hari = 12;
+            jam = 09;
             menit = 00;
             detik = 00;
 
@@ -686,14 +611,6 @@
         <script src='https://cdn.jsdelivr.net/gh/pimenvibritania/cdn@master/js/swiper.min.js'></script>
 
                 <!-- Initialize Swiper -->
-        <script>
-        var swiper = new Swiper('.swiper-container', {
-            navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-            },
-        });
-        </script>
 
         <script>
         document.getElementById('mute').style.display = 'none';
@@ -731,6 +648,39 @@
                 ],
                 delay: 200,
             });
+        </script>
+        <script>
+            const swiper = new Swiper('.swiper-container', {
+                loop: true, // creates a infinite loop of slides
+                navigation: { // activate navigation with navigation buttons
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                pagination: {// activate paginations
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                    clickable: true,
+                },
+
+                // keyboard and mousewheel navigation
+                keyboard: true,
+                mousewheel: true,
+
+                // for other than sliding effect
+
+                // effect: 'creative',
+                // creativeEffect: {
+                //  prev: {
+                //      // will set `translateZ(-400px)` on previous slides
+                //      translate: [0, 0, -400],
+                //  },
+                //  next: {
+                //      // will set `translateX(100%)` on next slides
+                //      translate: ['100%', 0, 0],
+                //  },
+                // },
+                // effect: 'coverflow',
+            })
         </script>
     </body>
 </html>

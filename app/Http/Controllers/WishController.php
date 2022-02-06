@@ -21,8 +21,9 @@ class WishController extends Controller
     public function index(Request $request)
     {
         $name = $request->query('to');
-        $wishes = Wish::all()->sortDesc();
-        return view('index', ['name' => $name, 'wishes' => $wishes]);
+        // $wishes = Wish::all()->sortDesc();
+        // return view('index', ['name' => $name, 'wishes' => $wishes]);
+        return view('index', ['name' => $name]);
     }
 
     /**
