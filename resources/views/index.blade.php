@@ -13,7 +13,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-        <meta property="og:image" content="{{asset('assets/images/ico.jpg')}}">
+        <meta property="og:image" content="https://i.imgur.com/7H6DrbU.png">
         <meta property="og:image:type" content="image/jpg">
         <meta property="og:image:width" content="1024">
         <meta property="og:image:height" content="1024">
