@@ -15,8 +15,8 @@
         <meta property="og:image" content="https://i.imgur.com/7H6DrbU.png" />
         <meta property="og:image:secure_url" content="https://i.imgur.com/7H6DrbU.png" />
         <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:width" content="400" />
-        <meta property="og:image:height" content="400" />
+        <meta property="og:image:width" content="810" />
+        <meta property="og:image:height" content="810" />
 
         <meta property='og:title' content='You Are Invited to The Wedding of Yayang &amp; Pimen'>
         <meta property='og:description' content='Villa Yudhistira | Saturday, February 12th, 2022'>
